@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="9eJ4):fzzps1SmEelB35">Player</variable><variable type="KIND_SpriteKind" id="r445^tRnKp}LxTfsZ1aJ">Projectile</variable><variable type="KIND_SpriteKind" id="otU,r7}2SM`_Q=~BlkiE">Food</variable><variable type="KIND_SpriteKind" id="2g*P=ZmIdCCWqFci}o]e">Enemy</variable><variable id="GGBg+aSB|ws8k9|C$X3V">mySprite</variable><variable id="_l3:W0c}[mY*})bO#zHl">extinguisher</variable></variables><block type="pxt-on-start" id="D2A9v~eFPi|~BdwF)/}T" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="iWW0q9lG.6e0`ln-/xLk"><field name="VAR" id="GGBg+aSB|ws8k9|C$X3V">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Gb8hUE~eb5ehRX%hVYC!"><value name="img"><shadow type="screen_image_picker" id="s/}(.u?,p$Rkj=X9cINO"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"s/}(.u?,p$Rkj=X9cINO"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ZLFtHO+G5B6R#hn3tgt?"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="game_control_sprite" id="uw$pVNN9J}[Oai!WSiI^" disabled="true" x="550" y="210"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="F~Fuu=W`5JZ@A;F}!fBB" disabled="true"><field name="VAR" id="GGBg+aSB|ws8k9|C$X3V">mySprite</field></block></value></block></xml>
